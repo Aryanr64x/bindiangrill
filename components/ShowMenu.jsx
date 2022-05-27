@@ -21,7 +21,7 @@ const ShowMenu = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 d-flex justify-content-center">
-                        <img className="img-fluid" className="lg:ml-16" src="https://i.ibb.co/DMqKw1N/mocktail.png" alt="mocktail"
+                        <img className="img-fluid"  src="https://i.ibb.co/DMqKw1N/mocktail.png" alt="mocktail"
                             border="0" />
 
                     </div>
