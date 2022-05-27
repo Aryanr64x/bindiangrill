@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Macondo&display=swap');
+
+.mackondo {
+    font-family: 'Macondo', cursive;
+}
+
+.cabin {
+    font-family: 'Cabin', sans-serif;
+    ;
+}
+
+.hamburger {
+    height: 20px;
+    fill: #A7CDBD;
+}
+
+.hamburger:focus {
+    border: none !important;
+}
+
+
+.star {
+    display: inline;
+    height: 32px;
+    fill: #FDBD31;
+}
+
+.delivery_app {
+    height: 120px;
+}
+
+
+
+/* LINE HEIGHT VALUE IS INDIRECTLY RELATED TO FONT SIZE  */
+
+@media only screen and (max-width: 600px) {
+    .line-height {
+        line-height: 40px;
+    }
+
+}
+
+.line-height {
+    line-height: 60px;
+}
+
+
+
+@media screen and (min-width: 900px) {
+    .courasel_image {
+        height: calc(100vh - 48px);
+    }
+
+
+}
+
+.new_section {
+    margin-top: 172px;
+}
+
+.navbar-toggler:focus {
+    -webkit-box-shadow: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
