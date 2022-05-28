@@ -49,6 +49,7 @@
 @media screen and (min-width: 900px) {
     .courasel_image {
         height: calc(100vh - 48px);
+        background-image: url('https://i.ibb.co/s6XvjYy/slide1.png');
     }
 
 

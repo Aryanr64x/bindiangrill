@@ -3,12 +3,14 @@ import Hero from "../components/Hero"
 import ShowMenu from "../components/ShowMenu"
 import Rating from "../components/Rating"
 import Contact from "../components/Contact"
+import Welcome from "../components/Welcome"
 import Script from 'next/script'
 export default function Home() {
   return (
     <div className="bg-secondary cabin text-white">
       <Navbar />
       <Hero />
+      <Welcome />
       <ShowMenu />
       <Rating />
       <Contact />

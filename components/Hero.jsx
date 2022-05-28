@@ -5,6 +5,7 @@ const Hero = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="d-block w-100 courasel_image" src="https://i.ibb.co/s6XvjYy/slide1.png" alt="First slide " />
+                        
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100 courasel_image" src="https://i.ibb.co/t3nJjPJ/slide2.png" alt="Second slide" />
