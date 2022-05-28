@@ -1,17 +1,24 @@
+import { Fade } from "react-reveal";
 const Welcome = () => {
     return (
         <div>
             <div className="container new_section">
                 <div className="text-center">
                     <h4 className="text-white">
-                        Welcome To
+                        <Fade top>
+                            Welcome To
+                        </Fade>
                     </h4>
                     <div className="display-2 text-primary mackondo">
-                        INDIAN GRILL ROOM
+                        <Fade top>
+                            INDIAN GRILL ROOM
+                        </Fade>
                     </div>
                     <div className=" text-white h4">
-                        Serving quality North Indian Food at the
-                        heart of Gurugram
+                        <Fade bottom>
+                            Serving quality North Indian Food at the
+                            heart of Gurugram
+                        </Fade>
                     </div>
                     <div className="mt-4 ">
                         <button className="btn btn-primary me-4"> Book Table </button>
